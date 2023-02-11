@@ -68,20 +68,21 @@ a:active {
   /* background-color: red; */
   width: 50%;
   height: 100%;
-  /* border-right: 1px black solid; */
-  overflow: scroll;
-  overflow-x: scroll;
+  /* overflow: scroll; */
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .title {
   font-family: Hershey;
   font-size: 6.5vw;
   background-color: rgb(251, 251, 251);
-  margin: 1vw 0.5vw 1vw 0.5vw;
+  margin: 0vw 0.5vw 1vw 0.5vw;
+  padding-top:1vw;
   color: #c6a3ff;
   position: fixed;
   z-index: 999;
+  box-shadow: 0 0 10px 10px rgb(251, 251, 251);
 }
 
 #borderLeft {
@@ -101,6 +102,8 @@ a:active {
   /* background-color: lightblue; */
   margin: 14vw 2vw 0vw 0.5vw;
   padding: 0;
+  overflow-x: none;
+  overflow-x: hidden;
 }
 
 .list-item {
@@ -136,6 +139,7 @@ a:active {
   mix-blend-mode: multiply;
   color: black;
   overflow-x: none;
+  transition: 0.5s ease-in-out;
 }
 
 .right {
@@ -149,6 +153,7 @@ a:active {
   /* background-color: white; */
   display: none;
   flex-direction: column;
+  /* transition: all 0.5s ease-in-out; */
 }
 
 onclick {
@@ -168,7 +173,7 @@ onclick {
   cursor: pointer;
 }
 
-.div-underline {
+.my-button:hover{
   transition: all .1s ease-in-out;
   color: #c6a3ff;
   border-style: solid;
@@ -182,6 +187,16 @@ onclick {
       rgba(0, 0, 0, 0));
 }
 
-#item-2{
-  flex-direction: column;
+.div-underline{
+  transition: all .1s ease-in-out;
+  color: #c6a3ff;
+  border-style: solid;
+  /* border-width: 0px 0px 1.5px 0px; */
+  padding: 2px;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0) 81%,
+      #c6a3ff 50%,
+      #c6a3ff 50%,
+      rgba(0, 0, 0, 0) 85%,
+      rgba(0, 0, 0, 0));
 }
