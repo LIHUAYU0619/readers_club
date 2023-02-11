@@ -15,6 +15,31 @@ a:active {
   color: #ffffff;
 }
 
+/*  */
+.title a {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  text-shadow: -7px 0 #c6a3ff, 0 7px #c6a3ff, 7px 0 #c6a3ff, 0 -7px #c6a3ff;
+  color: white;
+}
+
+.title a:hover {
+  /* color: #5135dd; */
+  /* text-shadow: 0px 0px 20px #c6a3ff; */
+  /* text-shadow: -1px -1px 0 #6d12f0, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 #000; */
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  /* text-shadow: 0px 0px #c6a3ff, 0 5px white, 1px 0 #c6a3ff, 0 -2px white;
+  -webkit-text-stroke-width: 1.5mm; */
+  text-shadow: 0px 0 #c6a3ff, 0 0px #c6a3ff, 0px 0 #c6a3ff, 0 0px #c6a3ff;
+  color: #c6a3ff;
+}
+
 /* a:visited{
   color: #c6a3ff;
 } */
@@ -78,7 +103,7 @@ a:active {
   font-size: 6.5vw;
   background-color: rgb(251, 251, 251);
   margin: 0vw 0.5vw 1vw 0.5vw;
-  padding-top:1vw;
+  padding-top: 1vw;
   color: #c6a3ff;
   position: fixed;
   z-index: 999;
@@ -173,30 +198,45 @@ onclick {
   cursor: pointer;
 }
 
-.my-button:hover{
+.my-button:hover {
   transition: all .1s ease-in-out;
   color: #c6a3ff;
   border-style: solid;
   /* border-width: 0px 0px 1.5px 0px; */
   padding: 2px;
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0),
+  /* background-image: linear-gradient(180deg, rgba(255, 255, 255, 0),
       rgba(0, 0, 0, 0) 81%,
       #c6a3ff 50%,
       #c6a3ff 50%,
       rgba(0, 0, 0, 0) 85%,
       rgba(0, 0, 0, 0));
+      text-shadow: -7px 0 #c6a3ff, 0 7px #c6a3ff, 7px 0 #c6a3ff, 0 -7px #c6a3ff;
+      color:white; */
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  text-shadow: -3px 0 #c6a3ff, 0 3px #c6a3ff, 3px 0 #c6a3ff, 0 -3px #c6a3ff;
+  color: white;
 }
 
-.div-underline{
+.div-underline {
   transition: all .1s ease-in-out;
   color: #c6a3ff;
   border-style: solid;
   /* border-width: 0px 0px 1.5px 0px; */
   padding: 2px;
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0),
+  /* background-image: linear-gradient(180deg, rgba(255, 255, 255, 0),
       rgba(0, 0, 0, 0) 81%,
       #c6a3ff 50%,
       #c6a3ff 50%,
       rgba(0, 0, 0, 0) 85%,
-      rgba(0, 0, 0, 0));
+      rgba(0, 0, 0, 0)); */
+  text-shadow: -7px 0 #c6a3ff, 0 7px #c6a3ff, 7px 0 #c6a3ff, 0 -7px #c6a3ff;
+  color: white;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
