@@ -148,19 +148,21 @@ a:active {
   overflow-y: scroll;
   font-family: 'Cardo', serif;
   font-weight: lighter;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
+  overflow-x: none;
 }
 
 .middle-content {
   position: relative;
+  overflow-x: none;
   /* color:pink; */
   /* background-color: lightcoral; */
   margin: 1vw 1vw 1vw 1vw;
   /* -webkit-text-stroke: 0.1px; */
   /* background-color: grey; */
   /* text-shadow: 0px -0.1px 0, 0px 0.1px 0, 0.1px -0.1px 0, -0.1px 0px 1px, 0px 0px 1px, 0.1px 0px 1px, -0.1px 0.1px 0, 0px 0.1px 0, 0.1px 0.1px 0, -0.2px -0.2px 0, 0px 0.1px 0 #FF0000; */
-  -webkit-filter: contrast(2);
-  filter: contrast(2);
+  -webkit-filter: contrast(1);
+  filter: contrast(1);
   mix-blend-mode: multiply;
   color: black;
   overflow-x: none;
@@ -199,7 +201,7 @@ onclick {
 }
 
 .my-button:hover {
-  transition: all .1s ease-in-out;
+  transition:  .1s ease-in-out;
   color: #c6a3ff;
   border-style: solid;
   /* border-width: 0px 0px 1.5px 0px; */
@@ -222,7 +224,7 @@ onclick {
 }
 
 .div-underline {
-  transition: all .1s ease-in-out;
+  transition:  .1s ease-in-out;
   color: #c6a3ff;
   border-style: solid;
   /* border-width: 0px 0px 1.5px 0px; */
